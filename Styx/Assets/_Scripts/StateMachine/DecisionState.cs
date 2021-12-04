@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DecisionState : State
 {
+    enum Direction {Hell, Haven, Undecided}
+    Direction direction = Direction.Undecided;
+
     public DecisionState(StateSystem system) : base(system)
     {
     }
@@ -17,17 +20,34 @@ public class DecisionState : State
 
     public override IEnumerator TurnHaven()
     {
-        Debug.Log("To Haven Button Pressed...");
-        Debug.Log("...Changing States!");
-        _system.SetState(new PassangerState(_system));
+        if (direction != Direction.Haven)
+            Debug.Log("To Haven Button Pressed...");
+        direction = Direction.Haven;
         yield return new WaitForSeconds(0f);
     }
 
     public override IEnumerator TurnHell()
     {
-        Debug.Log("To Hell Button Pressed...");
-        Debug.Log("...Changing States!");
-        _system.SetState(new PassangerState(_system));
+        if (direction != Direction.Hell)
+            Debug.Log("To Hell Button Pressed...");
+        direction = Direction.Hell;
         yield return new WaitForSeconds(0f);
+    }
+
+    public override IEnumerator Accept() 
+    {
+        if (direction == Direction.Hell)
+        {
+            Debug.Log("...Changing States!");
+            _system.SetState(new PassangerState(_system));
+            yield return new WaitForSeconds(0f);
+        }
+        if (direction == Direction.Haven)
+        {
+            Debug.Log("...Changing States!");
+            _system.SetState(new PassangerState(_system));
+            yield return new WaitForSeconds(0f);
+        }
+
     }
 }
