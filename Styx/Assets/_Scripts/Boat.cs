@@ -33,7 +33,6 @@ public class Boat : MonoBehaviour
     public void Turn(float axisValue)
     {
         var y = transform.eulerAngles.y;
-        print(transform.eulerAngles);
 
         float turnModifier = 1f;
         
