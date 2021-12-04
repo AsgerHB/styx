@@ -13,7 +13,7 @@ public class Dialogue : MonoBehaviour
     [System.Serializable]
     public class Line {
         public AudioClip Clip;
-        [Multiline]
+        [Multiline(4)]
         public string Text;
     }
 
