@@ -26,9 +26,8 @@ public class DecisionState : State
 
         _system.Boat.Turn(Input.GetAxis("Horizontal"));
 
-
-        yield return new WaitForSeconds(0f);
         UpdateArrows();
+        yield return new WaitForSeconds(0f);
     }
 
     public override IEnumerator TurnHell()
@@ -41,9 +40,8 @@ public class DecisionState : State
 
         _system.Boat.Turn(Input.GetAxis("Horizontal"));
 
-
-        yield return new WaitForSeconds(0f);
         UpdateArrows();
+        yield return new WaitForSeconds(0f);
     }
 
     public override IEnumerator Accept() 
