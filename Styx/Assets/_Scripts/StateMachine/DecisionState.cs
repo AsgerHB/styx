@@ -24,11 +24,11 @@ public class DecisionState : State
         _system.cube.GetComponent<Renderer>().material.SetColor("_EmissionColor", new Color(1.2f, 1.3f, .4f));
 
 
+
         _system.Boat.Turn(Input.GetAxis("Horizontal"));
 
-
-        yield return new WaitForSeconds(0f);
         UpdateArrows();
+        yield return new WaitForSeconds(0f);
     }
 
     public override IEnumerator TurnHell()
@@ -37,12 +37,12 @@ public class DecisionState : State
         Debug.Log("...Changing States!");
 
         _system.cube.GetComponent<Renderer>().material.SetColor("_EmissionColor", new Color(2f, .4f, .4f));
+        _system.SetState(new PassangerState(_system));
 
         _system.Boat.Turn(Input.GetAxis("Horizontal"));
 
-
-        yield return new WaitForSeconds(0f);
         UpdateArrows();
+        yield return new WaitForSeconds(0f);
     }
 
     public override IEnumerator Accept() 
