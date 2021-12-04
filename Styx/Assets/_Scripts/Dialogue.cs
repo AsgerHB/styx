@@ -17,8 +17,11 @@ public class Dialogue : MonoBehaviour
         public string Text;
     }
 
+    public LineList PRE_INTRODUCTION;
     public LineList INTRODUCTION;
     public List<LineList> HEAVEN;
     public List<LineList> HELL;
+    public LineList HEAVEN_ENDING;
+    public LineList HELL_ENDING;
 
 }

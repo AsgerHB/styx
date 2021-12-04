@@ -51,10 +51,25 @@ public class PassangerState : State
             Debug.Log("...Changing States!");
 
             _system.cube.GetComponent<Renderer>().material.SetColor("_EmissionColor", new Color(1.4f, 0, 1.4f));
-            _system.SetState(new DecisionState(_system));
-            _system.AnyKey.Hide();
-            _system.DialogueBox.SetActive(false);
-            _system.Progress += 1;
+            
+            if (_system.Progress + 1 < _system.Dialogue.HEAVEN.Count )
+            {
+                _system.SetState(new DecisionState(_system));
+                _system.AnyKey.Hide();
+                _system.DialogueBox.SetActive(false);
+                _system.Progress += 1;
+            }
+            else
+            {
+                Debug.Log("...Game Ended!");
+                _system.AnyKey.Hide();
+                _system.DialogueBox.SetActive(false);
+                if (_system.Boat.CurrentDirection == Boat.Direction.Hell)
+                    _system.SetState(new HellEndState(_system));
+                else
+                    _system.SetState(new HeavenEndState(_system));
+            }
+
             yield return new WaitForSeconds(0f);
         }
     }

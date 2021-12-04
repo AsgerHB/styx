@@ -12,6 +12,6 @@ public class BeginState : State
     {
         Debug.Log("Entering: Begin State");
         yield return new WaitForSeconds(0f);
-        _system.SetState(new CharonState(_system));
+        _system.SetState(new IntroState(_system));
     }
 }

@@ -9,6 +9,8 @@ public class StateSystem : MonoBehaviour
     public GameObject DialogueBox;
     public Dialogue Dialogue;
     public AudioSource AudioSource;
+    public GameObject Backdrop;
+    public GameObject EndText;
     private State _currentState;
 
     public Boat Boat;
@@ -37,6 +39,10 @@ public class StateSystem : MonoBehaviour
             Debug.LogError("Dialogue missing! Please specify!");
         if(AudioSource == null)
             Debug.LogError("AudioSource missing! Please specify!");
+        if(Backdrop == null)
+            Debug.LogError("Backdrop missing! Please specify!");
+        if(EndText == null)
+            Debug.LogError("EndText missing! Please specify!");
     }
 
     public void OnAcceptButton()
