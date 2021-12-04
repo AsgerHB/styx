@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class StateSystem : MonoBehaviour
 {
+    public int Progress = 0;
     public GameObject cube;
+    public GameObject DialogueBox;
     private State _currentState;
 
     public Boat Boat;
