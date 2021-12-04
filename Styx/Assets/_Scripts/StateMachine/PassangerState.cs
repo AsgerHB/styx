@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PassangerState : State
 {
-    string[] _texts;
+    Dialogue.LineList _lines;
     int _progress = 0;
 
     public PassangerState(StateSystem system) : base(system)
@@ -19,11 +19,17 @@ public class PassangerState : State
         _system.DialogueBox.SetActive(true);
 
         if (_system.Boat.CurrentDirection == Boat.Direction.Hell)
-            _texts = DialogueText.HELL[_system.Progress];
+            _lines = _system.Dialogue.HELL[_system.Progress];
         else
-            _texts = DialogueText.HEAVEN[_system.Progress];
+            _lines = _system.Dialogue.HEAVEN[_system.Progress];
 
-        _system.DialogueBox.GetComponent<Text>().text = _texts[_progress];
+        _system.DialogueBox.GetComponent<Text>().text = _lines.Lines[_progress].Text;
+        
+        _system.AudioSource.clip = _lines.Lines[_progress].Clip;
+        _system.AudioSource.Play();
+        
+        _system.AudioSource.clip = _lines.Lines[_progress].Clip;
+        _system.AudioSource.Play();
 
         yield return new WaitForSeconds(0f);
     }
@@ -32,10 +38,13 @@ public class PassangerState : State
     {
         Debug.Log("Accept Button Pressed...");
 
-        if (_progress +1 < _texts.Length)
+        if (_progress +1 < _lines.Lines.Count)
         {
             _progress += 1;
-            _system.DialogueBox.GetComponent<Text>().text = _texts[_progress];
+            _system.DialogueBox.GetComponent<Text>().text = _lines.Lines[_progress].Text;
+        
+            _system.AudioSource.clip = _lines.Lines[_progress].Clip;
+            _system.AudioSource.Play();
         }
         else
         {

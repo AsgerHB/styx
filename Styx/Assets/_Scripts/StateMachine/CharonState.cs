@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CharonState : State
 {
-    string[] _texts;
+    Dialogue.LineList _lines;
     int _progress = 0;
 
     public CharonState(StateSystem system) : base(system)
@@ -18,8 +18,11 @@ public class CharonState : State
         _system.AnyKey.Show();
         _system.DialogueBox.SetActive(true);
 
-        _texts = DialogueText.INTRODUCTION;
-        _system.DialogueBox.GetComponent<Text>().text = _texts[_progress];
+        _lines = _system.Dialogue.INTRODUCTION;
+        _system.DialogueBox.GetComponent<Text>().text = _lines.Lines[_progress].Text;
+        
+        _system.AudioSource.clip = _lines.Lines[_progress].Clip;
+        _system.AudioSource.Play();
 
         yield return new WaitForSeconds(0f);
     }
@@ -27,10 +30,14 @@ public class CharonState : State
     public override IEnumerator Accept()
     {
         Debug.Log("Accept Button Pressed...");
-        if (_progress +1 < _texts.Length)
+        if (_progress +1 < _lines.Lines.Count)
         {
             _progress += 1;
-            _system.DialogueBox.GetComponent<Text>().text = _texts[_progress];
+
+            _system.DialogueBox.GetComponent<Text>().text = _lines.Lines[_progress].Text;
+
+            _system.AudioSource.clip = _lines.Lines[_progress].Clip;
+            _system.AudioSource.Play();
         }
         else
         {
