@@ -6,6 +6,10 @@ public class StateSystem : MonoBehaviour
 {
     private State _currentState;
 
+    public Boat Boat;
+    public Arrows Arrows;
+    public AnyKey AnyKey;
+
     public void SetState(State state)
     {
         _currentState = state;
@@ -15,6 +19,13 @@ public class StateSystem : MonoBehaviour
     private void Start()
     {
         SetState(new BeginState(this));
+
+        if(Boat == null)
+            Debug.LogError("Boat missing! Please specify!");
+        if(Arrows == null)
+            Debug.LogError("Arrows missing! Please specify!");
+        if(AnyKey == null)
+            Debug.LogError("AnyKey missing! Please specify!");
     }
 
     public void OnAcceptButton()

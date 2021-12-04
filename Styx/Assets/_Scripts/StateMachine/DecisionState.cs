@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class DecisionState : State
 {
-    enum Direction {Hell, Haven, Undecided}
-    Direction direction = Direction.Undecided;
 
     public DecisionState(StateSystem system) : base(system)
     {
@@ -14,40 +12,55 @@ public class DecisionState : State
     public override IEnumerator Start()
     {
         Debug.Log("Entering: Decision State");
+        UpdateArrows();
         yield return new WaitForSeconds(2f);
-
     }
 
     public override IEnumerator TurnHaven()
     {
-        if (direction != Direction.Haven)
-            Debug.Log("To Haven Button Pressed...");
-        direction = Direction.Haven;
+        _system.Boat.Turn(Input.GetAxis("Horizontal"));
+
         yield return new WaitForSeconds(0f);
+        UpdateArrows();
     }
 
     public override IEnumerator TurnHell()
     {
-        if (direction != Direction.Hell)
-            Debug.Log("To Hell Button Pressed...");
-        direction = Direction.Hell;
+        _system.Boat.Turn(Input.GetAxis("Horizontal"));
+
         yield return new WaitForSeconds(0f);
+        UpdateArrows();
     }
 
     public override IEnumerator Accept() 
     {
-        if (direction == Direction.Hell)
+        if (_system.Boat.CurrentDirection == Boat.Direction.Hell)
         {
-            Debug.Log("...Changing States!");
+            Debug.Log("...Changing States! ...To Hell!");
             _system.SetState(new PassangerState(_system));
+            _system.Arrows.HideArrows();
             yield return new WaitForSeconds(0f);
         }
-        if (direction == Direction.Haven)
+        if (_system.Boat.CurrentDirection == Boat.Direction.Heaven)
         {
-            Debug.Log("...Changing States!");
+            Debug.Log("...Changing States! ...To Heaven!");
             _system.SetState(new PassangerState(_system));
+            _system.Arrows.HideArrows();
             yield return new WaitForSeconds(0f);
         }
 
+    }
+
+    void UpdateArrows()
+    {
+        if(_system.Boat.CurrentDirection == Boat.Direction.Undecided){
+            _system.Arrows.FaceNeutral();
+        }
+        else if(_system.Boat.CurrentDirection == Boat.Direction.Hell){
+            _system.Arrows.FaceHell();
+        }
+        else if(_system.Boat.CurrentDirection == Boat.Direction.Heaven){
+            _system.Arrows.FaceHeaven();
+        }
     }
 }

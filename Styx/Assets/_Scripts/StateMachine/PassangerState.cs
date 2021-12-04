@@ -11,6 +11,7 @@ public class PassangerState : State
     public override IEnumerator Start()
     {
         Debug.Log("Entering: Passanger State");
+        _system.AnyKey.Show();
         yield return new WaitForSeconds(2f);
     }
 
@@ -19,6 +20,7 @@ public class PassangerState : State
         Debug.Log("Accept Button Pressed...");
         Debug.Log("...Changing States!");
         _system.SetState(new DecisionState(_system));
+        _system.AnyKey.Hide();
         yield return new WaitForSeconds(0f);
     }
 }
