@@ -37,7 +37,7 @@ public class DecisionState : State
         Debug.Log("...Changing States!");
 
         _system.cube.GetComponent<Renderer>().material.SetColor("_EmissionColor", new Color(2f, .4f, .4f));
-        _system.SetState(new PassangerState(_system));
+
 
         _system.Boat.Turn(Input.GetAxis("Horizontal"));
 
