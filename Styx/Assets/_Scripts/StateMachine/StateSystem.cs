@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StateSystem : MonoBehaviour
 {
+    public GameObject cube;
     private State _currentState;
 
     public void SetState(State state)

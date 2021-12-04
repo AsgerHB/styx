@@ -18,6 +18,8 @@ public class PassangerState : State
     {
         Debug.Log("Accept Button Pressed...");
         Debug.Log("...Changing States!");
+
+        _system.cube.GetComponent<Renderer>().material.SetColor("_EmissionColor", new Color(1.4f, 0, 1.4f));
         _system.SetState(new DecisionState(_system));
         yield return new WaitForSeconds(0f);
     }

@@ -18,6 +18,8 @@ public class CharonState : State
     {
         Debug.Log("Accept Button Pressed...");
         Debug.Log("...Changing States!");
+
+        _system.cube.GetComponent<Renderer>().material.SetColor("_EmissionColor", new Color(0f, 1.4f, 1.4f));
         _system.SetState(new PassangerState(_system));
         yield return new WaitForSeconds(0f);
     }
