@@ -49,8 +49,6 @@ public class PassangerState : State
         else
         {
             Debug.Log("...Changing States!");
-
-            _system.cube.GetComponent<Renderer>().material.SetColor("_EmissionColor", new Color(1.4f, 0, 1.4f));
             
             if (_system.Progress + 1 < _system.Dialogue.HEAVEN.Count )
             {

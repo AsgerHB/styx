@@ -5,7 +5,6 @@ using UnityEngine;
 public class StateSystem : MonoBehaviour
 {
     public int Progress = 0;
-    public GameObject cube;
     public GameObject DialogueBox;
     public Dialogue Dialogue;
     public AudioSource AudioSource;

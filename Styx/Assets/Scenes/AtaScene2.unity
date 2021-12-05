@@ -377,7 +377,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80df84b9468fb684fa03b23d31bc42d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Progress: 0
   cube: {fileID: 1103688207}
+  DialogueBox: {fileID: 0}
+  Dialogue: {fileID: 0}
+  AudioSource: {fileID: 0}
+  Backdrop: {fileID: 0}
+  EndText: {fileID: 0}
   Boat: {fileID: 729759768}
   Arrows: {fileID: 2032986299}
   AnyKey: {fileID: 1522918458}
@@ -1207,7 +1213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.572327, g: 1, b: 0.9662784, a: 0.5}
+  m_EffectColor: {r: 0.318, g: 1, b: 1, a: 1}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!1 &1497107380

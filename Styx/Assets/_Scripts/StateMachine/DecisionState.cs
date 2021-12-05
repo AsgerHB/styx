@@ -21,9 +21,6 @@ public class DecisionState : State
         Debug.Log("To Haven Button Pressed...");
         Debug.Log("...Changing States!");
 
-        _system.cube.GetComponent<Renderer>().material.SetColor("_EmissionColor", new Color(1.2f, 1.3f, .4f));
-
-
 
         _system.Boat.Turn(Input.GetAxis("Horizontal"));
 
@@ -35,9 +32,6 @@ public class DecisionState : State
     {
         Debug.Log("To Hell Button Pressed...");
         Debug.Log("...Changing States!");
-
-        _system.cube.GetComponent<Renderer>().material.SetColor("_EmissionColor", new Color(2f, .4f, .4f));
-
 
         _system.Boat.Turn(Input.GetAxis("Horizontal"));
 
