@@ -27,9 +27,11 @@ public class PassangerState : State
         
         _system.AudioSource.clip = _lines.Lines[_progress].Clip;
         _system.AudioSource.Play();
-        
-        _system.AudioSource.clip = _lines.Lines[_progress].Clip;
-        _system.AudioSource.Play();
+
+        var face = _lines.Lines[_progress].Face;
+        Debug.Log(face);
+        if (face != null)
+            _system.Face.GetComponent<Image>().sprite = face;
 
         yield return new WaitForSeconds(0f);
     }
@@ -45,6 +47,11 @@ public class PassangerState : State
         
             _system.AudioSource.clip = _lines.Lines[_progress].Clip;
             _system.AudioSource.Play();
+
+            var face = _lines.Lines[_progress].Face;
+            Debug.Log(face);
+            if (face != null)
+                _system.Face.GetComponent<Image>().sprite = face;
         }
         else
         {

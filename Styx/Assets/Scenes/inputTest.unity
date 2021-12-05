@@ -234,11 +234,13 @@ MonoBehaviour:
 
 
         I didn''t do it, okay?'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 96f808cb74545c51b93b2b3acf584669, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I DIDN''T DO IT!'
+      Face: {fileID: 0}
   INTRODUCTION:
     Lines:
     - Clip: {fileID: 8300000, guid: e9ba72e206c37f11ea97de72a8354159, type: 3}
@@ -246,6 +248,7 @@ MonoBehaviour:
 
 
         I didn''t do it...'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Charon:</b>
 
@@ -256,6 +259,7 @@ MonoBehaviour:
 
 
         I didn''t kill her.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
@@ -267,12 +271,14 @@ MonoBehaviour:
 
         The jury didn''t. They sentenced me to life
         in prison. I was 18!'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 9f3876bdddcda76c8987d11e49272f06, type: 3}
       Text: '<b>Passenger:</b>
 
 
         That wasn''t fast enough, so they sent me
         to the chair.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
@@ -283,6 +289,7 @@ MonoBehaviour:
 
 
         No, that was... That was something else.'
+      Face: {fileID: 0}
   HEAVEN:
   - Lines:
     - Clip: {fileID: 8300000, guid: 0a076c699c11cc852b416db591d42f6d, type: 3}
@@ -290,12 +297,14 @@ MonoBehaviour:
 
 
         Ah, you understand. Good.'
+      Face: {fileID: 21300000, guid: 47547dea141f75dcba769960c21c13ce, type: 3}
     - Clip: {fileID: 8300000, guid: ab64aba77fafedd21a50b14fb90c8085, type: 3}
       Text: '<b>Passenger:</b>
 
 
         When we get to heaven, I''ll take care of
         you.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
@@ -306,16 +315,19 @@ MonoBehaviour:
 
 
         I...'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 06418a77430117d739addd2c2839b53a, type: 3}
       Text: '<b>Passenger:</b>
 
 
         He was a necessary sacrifice.'
+      Face: {fileID: 21300000, guid: c141f670daa26b2da8ad3d550b46761d, type: 3}
     - Clip: {fileID: 8300000, guid: 6b2df20f6078cfa25bfb0e60a6ba2f81, type: 3}
       Text: '<b>Passenger:</b>
 
 
         When you fight a war, brothers become soldiers.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
@@ -326,33 +338,39 @@ MonoBehaviour:
 
 
         Spoken like someone who''s always had it.'
+      Face: {fileID: 0}
   - Lines:
     - Clip: {fileID: 8300000, guid: 2327ec4371cc71c069b28880d155128b, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Look, I''m not saying I''m perfect but...'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 1904e08a18abadeeab7006c34fb6939e, type: 3}
       Text: '<b>Passenger:</b>
 
 
         What do you do when a random stranger tries
         to hold you down?'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 6e3f9a685fe85ec2f8cb2a505a544174, type: 3}
       Text: '<b>Passenger:</b>
 
 
         You make him stop.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: a84b9e334ce0cd802b58db43a1e29f61, type: 3}
       Text: '<b>Passenger:</b>
 
 
         You make sure he can''t try again.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 9cff93ffd43ecfd4fb1a56403559e56b, type: 3}
       Text: '<b>Passenger:</b>
 
 
         He wasn''t supposed to die though.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
@@ -364,6 +382,7 @@ MonoBehaviour:
 
         Well, I wasn''t supposed to go to prison,
         but here we are.'
+      Face: {fileID: 0}
   - Lines:
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
@@ -375,46 +394,54 @@ MonoBehaviour:
 
 
         I''ll believe it when I''m there.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Passenger:</b>
 
 
         ...'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 635b18d2e91a8052a9e3bb9b890a0478, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Why did that stupid bastard have to try
         and stop me?'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 338f398a880d506219c3dc5f93484ea1, type: 3}
       Text: '<b>Passenger:</b>
 
 
         When he grabbed me, I just saw them.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 4d6ee7fac85443c2aa3a406f1b8e380f, type: 3}
       Text: '<b>Passenger:</b>
 
 
         My father, the judge, Isac... Those spineless
         prison bastards.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 202719f70d2c822a681509844ae381a2, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I lost control. He didn''t even make it
         to the hospital.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 7885deed8cf373a39a145e0ff4ca3eb1, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Only took a couple of weeks to get the death
         sentence. '
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: a4516f6fbf30b750685e87d2c3c6b893, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I knew the exact date of my death and I
         could do nothing to stop it.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
@@ -434,11 +461,13 @@ MonoBehaviour:
 
         Look, you wouldn''t be the first to think
         I belong in hell.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: c5a28c12935b9b40bb58fca07f28e413, type: 3}
       Text: '<b>Passenger:</b>
 
 
         But you don''t know the whole story.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
@@ -450,23 +479,27 @@ MonoBehaviour:
 
         Then you know that prison is a dog eat dog
         world.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 4e621846632d356fdab132e57574c6a3, type: 3}
       Text: '<b>Passenger:</b>
 
 
         The dogs were circling and I wasn''t to
         wait around for their bite.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
 
         ...'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 844d4b15a33bd68919d1bfee38367eba, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I wasn''t even supposed to be in jail in
         the first place!'
+      Face: {fileID: 0}
   - Lines:
     - Clip: {fileID: 8300000, guid: a3522ddaf55a132118d99fb0ea099d91, type: 3}
       Text: '<b>Passenger:</b>
@@ -474,23 +507,27 @@ MonoBehaviour:
 
         Understand, I have been under somebody''s
         boot my entire life.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: b76e86bbd2fbca3529532076d318056d, type: 3}
       Text: '<b>Passenger:</b>
 
 
         My father, then the prison system... and
         then finally Isac.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: a5d9e152bffda9abcbc4c4d7bdff5c8a, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Until one day I snapped.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: a287e554e8d82d378be9c99bde84e0c4, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Isac may have been a monster, but I had
         sharper teeth.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 2bef7fa2619749c13b37e4a6eee45483, type: 3}
       Text: '<b>Passenger:</b>
 
@@ -511,6 +548,7 @@ MonoBehaviour:
 
 
         I was done suffering.'
+      Face: {fileID: 0}
   - Lines:
     - Clip: {fileID: 0}
       Text: '<b>Charon</b>
@@ -522,17 +560,20 @@ MonoBehaviour:
 
 
         Honestly, what did you expect of me?'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: c1aa0ff0f6e63f8babd733dce2e21aab, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I admit, I haven''t lived the cleanest life.
         But, how could I?'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 9bde6a61bcc0d1d23998cefedfbda1ca, type: 3}
       Text: '<b>Passenger:</b>
 
 
         My entire life has been covered in filth.'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
@@ -543,6 +584,7 @@ MonoBehaviour:
 
 
         The prison? I was just a man!'
+      Face: {fileID: 0}
     - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
@@ -553,39 +595,46 @@ MonoBehaviour:
 
 
         ...'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 2b2bf2818175282d6a7b3c0e858ae1ec, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Hahahaha!'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 2e020fd83ce1e484884a763caaa48d9b, type: 3}
       Text: '<b>Passenger:</b>
 
 
         So was Isac, so was the bastard that replaced
         me.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 51c3266f355a72aab97f2cd7d2bc11dc, type: 3}
       Text: '<b>Passenger:</b>
 
 
         But you''re right.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: c23db803443482316b032a542b6b1c6f, type: 3}
       Text: '<b>PASSENGER</b>
 
 
         I should have saved them from the hell they
         created for themselves. '
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: 5f90db895cb4ed9c883fbad9922b4266, type: 3}
       Text: '<b>Passenger:</b>
 
 
         It is a burden, us, the powerful must bear:
         compassion.'
+      Face: {fileID: 0}
     - Clip: {fileID: 8300000, guid: e04c47a2e21feedb7a1bcf7d69047f49, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Don''t you agree, ferry man?'
+      Face: {fileID: 0}
   HEAVEN_ENDING:
     Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
@@ -593,6 +642,7 @@ MonoBehaviour:
 
 
         Huh.'
+      Face: {fileID: 0}
   HELL_ENDING:
     Lines:
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
@@ -600,6 +650,7 @@ MonoBehaviour:
 
 
         It never ends, does it? '
+      Face: {fileID: 0}
 --- !u!4 &229222328
 Transform:
   m_ObjectHideFlags: 0
@@ -1063,6 +1114,7 @@ MonoBehaviour:
   Dialogue: {fileID: 229222327}
   AudioSource: {fileID: 729759769}
   Backdrop: {fileID: 1901837819}
+  Face: {fileID: 0}
   EndText: {fileID: 663714746}
   EndButton: {fileID: 2082569040}
   Boat: {fileID: 729759768}
@@ -1116,7 +1168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 224.58}
+  m_AnchoredPosition: {x: 705, y: 224.58}
   m_SizeDelta: {x: 406.8333, y: 630.8491}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &625691861
