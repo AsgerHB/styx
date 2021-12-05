@@ -592,14 +592,14 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        I''m finally home.'
+        Huh.'
   HELL_ENDING:
     Lines:
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        It will never end, will it?'
+        It never ends, does it? '
 --- !u!4 &229222328
 Transform:
   m_ObjectHideFlags: 0
