@@ -46,7 +46,7 @@ public class HeavenEndState : State
         else
         {
             Debug.Log("...Game end!");
-
+            _system.OnGameEnd();
             yield return new WaitForSeconds(0f);
         }
     }

@@ -10,4 +10,9 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene("inputTest");
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
 }

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class StateSystem : MonoBehaviour
 {
@@ -10,6 +12,7 @@ public class StateSystem : MonoBehaviour
     public AudioSource AudioSource;
     public GameObject Backdrop;
     public GameObject EndText;
+    public GameObject EndButton;
     private State _currentState;
 
     public Boat Boat;
@@ -56,4 +59,16 @@ public class StateSystem : MonoBehaviour
     {
         StartCoroutine(_currentState.TurnHell());
     }
+
+    public void OnGameEnd()
+    {
+        EndButton.SetActive(true);
+        EndButton.GetComponent<Button>().onClick.AddListener(delegate { EndGame(); });
+    }
+
+    private void EndGame()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 }
