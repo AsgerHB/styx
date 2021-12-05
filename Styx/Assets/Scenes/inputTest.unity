@@ -348,212 +348,212 @@ MonoBehaviour:
 
 
         You make sure he can''t try again.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 8300000, guid: 9cff93ffd43ecfd4fb1a56403559e56b, type: 3}
       Text: '<b>Passenger:</b>
 
 
         He wasn''t supposed to die though.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
 
         But he did.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 8300000, guid: 268bbee8c6d197e88a8892e952fc5fb7, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Well, I wasn''t supposed to go to prison,
         but here we are.'
   - Lines:
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
 
         We''re arriving at salvation.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 8300000, guid: 34d9847a56cdc27c4b76107aca757c52, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I''ll believe it when I''m there.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Passenger:</b>
 
 
         ...'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 8300000, guid: 635b18d2e91a8052a9e3bb9b890a0478, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Why did that stupid bastard have to try
         and stop me?'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 8300000, guid: 338f398a880d506219c3dc5f93484ea1, type: 3}
       Text: '<b>Passenger:</b>
 
 
         When he grabbed me, I just saw them.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 8300000, guid: 4d6ee7fac85443c2aa3a406f1b8e380f, type: 3}
       Text: '<b>Passenger:</b>
 
 
         My father, the judge, Isac... Those spineless
         prison bastards.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 8300000, guid: 202719f70d2c822a681509844ae381a2, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I lost control. He didn''t even make it
         to the hospital.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 8300000, guid: 7885deed8cf373a39a145e0ff4ca3eb1, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Only took a couple of weeks to get the death
         sentence. '
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 8300000, guid: a4516f6fbf30b750685e87d2c3c6b893, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I knew the exact date of my death and I
         could do nothing to stop it.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Passenger:</b>
 
 
         ...'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<b>Passenger:</b>
+    - Clip: {fileID: 8300000, guid: f949e52c91ebe868f9535810ebb9a30c, type: 3}
+      Text: '<b>Charon:</b>
 
 
-        I''ve suffered enough, haven''t I?'
+        Yes, yes you did.'
   HELL:
   - Lines:
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: 324f60c5af86709ae9ff62f92cc6d4f0, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Look, you wouldn''t be the first to think
         I belong in hell.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: c5a28c12935b9b40bb58fca07f28e413, type: 3}
       Text: '<b>Passenger:</b>
 
 
         But you don''t know the whole story.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
 
         I know all...'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: 8f0f7b75a5a5d1f37a4d1a97b727fa12, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Then you know that prison is a dog eat dog
         world.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: 4e621846632d356fdab132e57574c6a3, type: 3}
       Text: '<b>Passenger:</b>
 
 
         The dogs were circling and I wasn''t to
         wait around for their bite.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
 
         ...'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: 844d4b15a33bd68919d1bfee38367eba, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I wasn''t even supposed to be in jail in
         the first place!'
   - Lines:
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: a3522ddaf55a132118d99fb0ea099d91, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Understand, I have been under somebody''s
         boot my entire life.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: b76e86bbd2fbca3529532076d318056d, type: 3}
       Text: '<b>Passenger:</b>
 
 
         My father, then the prison system... and
         then finally Isac.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: a5d9e152bffda9abcbc4c4d7bdff5c8a, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Until one day I snapped.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: a287e554e8d82d378be9c99bde84e0c4, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Isac may have been a monster, but I had
         sharper teeth.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: 2bef7fa2619749c13b37e4a6eee45483, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Once the dust settled, hell became a paradise...
         For me.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: 3abdbc34847008635913e0bb046a5585, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I felt powerful, in control.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
 
         What about shame?'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: e66f72af95aae7d109a9e40445bf93e7, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I was done suffering.'
   - Lines:
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Charon</b>
 
 
         We''re arriving at damnation.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: b0921cbacf19b3b6ab16cb69dd74bdda, type: 3}
       Text: '<b>Passenger:</b>
 
 
         Honestly, what did you expect of me?'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: c1aa0ff0f6e63f8babd733dce2e21aab, type: 3}
       Text: '<b>Passenger:</b>
 
 
         I admit, I haven''t lived the cleanest life.
         But, how could I?'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: 9bde6a61bcc0d1d23998cefedfbda1ca, type: 3}
       Text: '<b>Passenger:</b>
 
 
         My entire life has been covered in filth.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
 
         You could have washed it clean.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: 34a9325b22233ad8ab08a1379a91ce80, type: 3}
       Text: '<b>Passenger:</b>
 
 
         The prison? I was just a man!'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Charon:</b>
 
 
         You were a king.'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 0}
       Text: '<b>Passenger:</b>
 
 
         ...'
-    - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
+    - Clip: {fileID: 8300000, guid: 2b2bf2818175282d6a7b3c0e858ae1ec, type: 3}
       Text: '<b>Passenger:</b>
 
 
