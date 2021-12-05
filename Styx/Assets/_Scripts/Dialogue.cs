@@ -15,6 +15,7 @@ public class Dialogue : MonoBehaviour
         public AudioClip Clip;
         [Multiline(4)]
         public string Text;
+        public Sprite Face; 
     }
 
     public LineList PRE_INTRODUCTION;

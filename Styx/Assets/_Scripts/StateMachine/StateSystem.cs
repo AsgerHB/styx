@@ -11,6 +11,7 @@ public class StateSystem : MonoBehaviour
     public Dialogue Dialogue;
     public AudioSource AudioSource;
     public GameObject Backdrop;
+    public GameObject Face;
     public GameObject EndText;
     public GameObject EndButton;
     private State _currentState;
@@ -45,6 +46,8 @@ public class StateSystem : MonoBehaviour
             Debug.LogError("Backdrop missing! Please specify!");
         if(EndText == null)
             Debug.LogError("EndText missing! Please specify!");
+        if(Face == null)
+            Debug.LogError("Face missing! Please specify!");
     }
 
     public void OnAcceptButton()
