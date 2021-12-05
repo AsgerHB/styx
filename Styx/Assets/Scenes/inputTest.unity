@@ -589,14 +589,14 @@ MonoBehaviour:
   HEAVEN_ENDING:
     Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<b>Passenger:</b>
+      Text: '
 
 
         Huh.'
   HELL_ENDING:
     Lines:
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<b>Passenger:</b>
+      Text: '
 
 
         It never ends, does it? '
