@@ -230,405 +230,405 @@ MonoBehaviour:
   PRE_INTRODUCTION:
     Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I didn''t do it,
-        okay?</color>'
+        I didn''t do it,
+        okay?'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>
+        
 
         I DIDN''T
-        DO IT!</color>'
+        DO IT!'
   INTRODUCTION:
     Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I didn''t do it...</color>'
+        I didn''t do it...'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>What?</color>'
+        What?'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I didn''t kill
-        her.</color>'
+        I didn''t kill
+        her.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>I believe you...</color>'
+        I believe you...'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>The jury didn''t.
-        They sentenced me to life in prison. I was 18!</color>'
+        The jury didn''t.
+        They sentenced me to life in prison. I was 18!'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>That wasn''t fast
-        enough, so they sent me to the chair.</color>'
+        That wasn''t fast
+        enough, so they sent me to the chair.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>You were not executed
-        for her death. </color>'
+        You were not executed
+        for her death. '
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>No, that was...
-        That was something else.</color>'
+        No, that was...
+        That was something else.'
   HEAVEN:
   - Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Ah, you understand.
-        Good.</color>'
+        Ah, you understand.
+        Good.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>When we get to
-        heaven, I''ll take care of you.</color>'
+        When we get to
+        heaven, I''ll take care of you.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>As you took care of
-        your partner?</color>'
+        As you took care of
+        your partner?'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I...</color>'
+        I...'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>He was a necessary
-        sacrifice.</color>'
+        He was a necessary
+        sacrifice.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>When you fight
-        a war, brothers become soldiers.</color>'
+        When you fight
+        a war, brothers become soldiers.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>All in the service
-        of power.</color>'
+        All in the service
+        of power.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Spoken like someone
-        who''s always had it.</color>'
+        Spoken like someone
+        who''s always had it.'
   - Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Look, I''m not
-        saying I''m perfect but...</color>'
+        Look, I''m not
+        saying I''m perfect but...'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>What do you do
-        when a random stranger tries to hold you down?</color>'
+        What do you do
+        when a random stranger tries to hold you down?'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>You make him stop.</color>'
+        You make him stop.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>You make sure he
-        can''t try again.</color>'
+        You make sure he
+        can''t try again.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>He wasn''t supposed
-        to die though.</color>'
+        He wasn''t supposed
+        to die though.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>But he did.</color>'
+        But he did.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Well, I wasn''t
-        supposed to go to prison, but here we are.</color>'
+        Well, I wasn''t
+        supposed to go to prison, but here we are.'
   - Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>We''re arriving at
-        salvation.</color>'
+        We''re arriving at
+        salvation.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I''ll believe it
-        when I''m there.</color>'
+        I''ll believe it
+        when I''m there.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>...</color>'
+        ...'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Why did that stupid
-        bastard have to try and stop me?</color>'
+        Why did that stupid
+        bastard have to try and stop me?'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>When he grabbed
-        me, I just saw them.</color>'
+        When he grabbed
+        me, I just saw them.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>My father, the
-        judge, Isac... Those spineless prison bastards.</color>'
+        My father, the
+        judge, Isac... Those spineless prison bastards.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I lost control.
-        He didn''t even make it to the hospital.</color>'
+        I lost control.
+        He didn''t even make it to the hospital.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Only took a couple
-        of weeks to get the death sentence. </color>'
+        Only took a couple
+        of weeks to get the death sentence. '
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I knew the exact
-        date of my death and I could do nothing to stop it.</color>'
+        I knew the exact
+        date of my death and I could do nothing to stop it.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>...</color>'
+        ...'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I''ve suffered
-        enough, haven''t I?</color>'
+        I''ve suffered
+        enough, haven''t I?'
   HELL:
   - Lines:
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Look, you wouldn''t
-        be the first to think I belong in hell.</color>'
+        Look, you wouldn''t
+        be the first to think I belong in hell.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>But you don''t
-        know the whole story.</color>'
+        But you don''t
+        know the whole story.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>I know all...</color>'
+        I know all...'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Then you know that
-        prison is a dog eat dog world.</color>'
+        Then you know that
+        prison is a dog eat dog world.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>The dogs were circling
-        and I wasn''t to wait around for their bite.</color>'
+        The dogs were circling
+        and I wasn''t to wait around for their bite.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>...</color>'
+        ...'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I wasn''t even
-        supposed to be in jail in the first place!</color>'
+        I wasn''t even
+        supposed to be in jail in the first place!'
   - Lines:
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Understand, I have
-        been under somebody''s boot my entire life.</color>'
+        Understand, I have
+        been under somebody''s boot my entire life.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>My father, then
-        the prison system... and then finally Isac.</color>'
+        My father, then
+        the prison system... and then finally Isac.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Until one day I
-        snapped.</color>'
+        Until one day I
+        snapped.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Isac may have been
-        a monster, but I had sharper teeth.</color>'
+        Isac may have been
+        a monster, but I had sharper teeth.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Once the dust settled,
-        hell became a paradise... For me.</color>'
+        Once the dust settled,
+        hell became a paradise... For me.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I felt powerful,
-        in control.</color>'
+        I felt powerful,
+        in control.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>What about shame?</color>'
+        What about shame?'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I was done suffering.</color>'
+        I was done suffering.'
   - Lines:
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Charon</color>
+      Text: '<b>Charon</b>
 
 
-        <color=red>We''re arriving at damnation.</color>'
+        We''re arriving at damnation.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Honestly, what
-        did you expect of me?</color>'
+        Honestly, what
+        did you expect of me?'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I admit, I haven''t
-        lived the cleanest life. But, how could I?</color>'
+        I admit, I haven''t
+        lived the cleanest life. But, how could I?'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>My entire life
-        has been covered in filth.</color>'
+        My entire life
+        has been covered in filth.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>You could have washed
-        it clean.</color>'
+        You could have washed
+        it clean.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>The prison? I was
-        just a man!</color>'
+        The prison? I was
+        just a man!'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Charon:</color>
+      Text: '<b>Charon:</b>
 
 
-        <color=red>You were a king.</color>'
+        You were a king.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>...</color>'
+        ...'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Hahahaha!</color>'
+        Hahahaha!'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>So was Isac, so
-        was the bastard that replaced me.</color>'
+        So was Isac, so
+        was the bastard that replaced me.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>But you''re right.</color>'
+        But you''re right.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>PASSENGER</color>
+      Text: '<b>PASSENGER</b>
 
 
-        <color=blue>I should have saved
-        them from the hell they created for themselves. </color>'
+        I should have saved
+        them from the hell they created for themselves. '
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>It is a burden,
-        us, the powerful must bear: compassion.</color>'
+        It is a burden,
+        us, the powerful must bear: compassion.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>Don''t you agree,
-        ferry man?</color>'
+        Don''t you agree,
+        ferry man?'
   HEAVEN_ENDING:
     Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>I''m finally home.</color>'
+        I''m finally home.'
   HELL_ENDING:
     Lines:
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
-      Text: '<color=grey>Passenger:</color>
+      Text: '<b>Passenger:</b>
 
 
-        <color=blue>It will never end,
-        will it?</color>'
+        It will never end,
+        will it?'
 --- !u!4 &229222328
 Transform:
   m_ObjectHideFlags: 0
