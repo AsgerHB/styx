@@ -233,16 +233,14 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        I didn''t do it,
-        okay?'
+        I didn''t do it, okay?'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        
 
-        I DIDN''T
-        DO IT!'
+
+        I DIDN''T DO IT!'
   INTRODUCTION:
     Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
@@ -259,8 +257,7 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        I didn''t kill
-        her.'
+        I didn''t kill her.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Charon:</b>
 
@@ -270,46 +267,42 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        The jury didn''t.
-        They sentenced me to life in prison. I was 18!'
+        The jury didn''t. They sentenced me to life
+        in prison. I was 18!'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        That wasn''t fast
-        enough, so they sent me to the chair.'
+        That wasn''t fast enough, so they sent me
+        to the chair.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Charon:</b>
 
 
-        You were not executed
-        for her death. '
+        You were not executed for her death. '
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        No, that was...
-        That was something else.'
+        No, that was... That was something else.'
   HEAVEN:
   - Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        Ah, you understand.
-        Good.'
+        Ah, you understand. Good.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        When we get to
-        heaven, I''ll take care of you.'
+        When we get to heaven, I''ll take care of
+        you.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Charon:</b>
 
 
-        As you took care of
-        your partner?'
+        As you took care of your partner?'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
@@ -319,39 +312,34 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        He was a necessary
-        sacrifice.'
+        He was a necessary sacrifice.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        When you fight
-        a war, brothers become soldiers.'
+        When you fight a war, brothers become soldiers.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Charon:</b>
 
 
-        All in the service
-        of power.'
+        All in the service of power.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        Spoken like someone
-        who''s always had it.'
+        Spoken like someone who''s always had it.'
   - Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        Look, I''m not
-        saying I''m perfect but...'
+        Look, I''m not saying I''m perfect but...'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        What do you do
-        when a random stranger tries to hold you down?'
+        What do you do when a random stranger tries
+        to hold you down?'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
@@ -361,14 +349,12 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        You make sure he
-        can''t try again.'
+        You make sure he can''t try again.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        He wasn''t supposed
-        to die though.'
+        He wasn''t supposed to die though.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Charon:</b>
 
@@ -378,62 +364,19 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        Well, I wasn''t
-        supposed to go to prison, but here we are.'
+        Well, I wasn''t supposed to go to prison,
+        but here we are.'
   - Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Charon:</b>
 
 
-        We''re arriving at
-        salvation.'
+        We''re arriving at salvation.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        I''ll believe it
-        when I''m there.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<b>Passenger:</b>
-
-
-        ...'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<b>Passenger:</b>
-
-
-        Why did that stupid
-        bastard have to try and stop me?'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<b>Passenger:</b>
-
-
-        When he grabbed
-        me, I just saw them.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<b>Passenger:</b>
-
-
-        My father, the
-        judge, Isac... Those spineless prison bastards.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<b>Passenger:</b>
-
-
-        I lost control.
-        He didn''t even make it to the hospital.'
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<b>Passenger:</b>
-
-
-        Only took a couple
-        of weeks to get the death sentence. '
-    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
-      Text: '<b>Passenger:</b>
-
-
-        I knew the exact
-        date of my death and I could do nothing to stop it.'
+        I''ll believe it when I''m there.'
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
       Text: '<b>Passenger:</b>
 
@@ -443,22 +386,60 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        I''ve suffered
-        enough, haven''t I?'
+        Why did that stupid bastard have to try
+        and stop me?'
+    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+      Text: '<b>Passenger:</b>
+
+
+        When he grabbed me, I just saw them.'
+    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+      Text: '<b>Passenger:</b>
+
+
+        My father, the judge, Isac... Those spineless
+        prison bastards.'
+    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+      Text: '<b>Passenger:</b>
+
+
+        I lost control. He didn''t even make it
+        to the hospital.'
+    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+      Text: '<b>Passenger:</b>
+
+
+        Only took a couple of weeks to get the death
+        sentence. '
+    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+      Text: '<b>Passenger:</b>
+
+
+        I knew the exact date of my death and I
+        could do nothing to stop it.'
+    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+      Text: '<b>Passenger:</b>
+
+
+        ...'
+    - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
+      Text: '<b>Passenger:</b>
+
+
+        I''ve suffered enough, haven''t I?'
   HELL:
   - Lines:
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        Look, you wouldn''t
-        be the first to think I belong in hell.'
+        Look, you wouldn''t be the first to think
+        I belong in hell.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        But you don''t
-        know the whole story.'
+        But you don''t know the whole story.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Charon:</b>
 
@@ -468,14 +449,14 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        Then you know that
-        prison is a dog eat dog world.'
+        Then you know that prison is a dog eat dog
+        world.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        The dogs were circling
-        and I wasn''t to wait around for their bite.'
+        The dogs were circling and I wasn''t to
+        wait around for their bite.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Charon:</b>
 
@@ -485,45 +466,43 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        I wasn''t even
-        supposed to be in jail in the first place!'
+        I wasn''t even supposed to be in jail in
+        the first place!'
   - Lines:
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        Understand, I have
-        been under somebody''s boot my entire life.'
+        Understand, I have been under somebody''s
+        boot my entire life.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        My father, then
-        the prison system... and then finally Isac.'
+        My father, then the prison system... and
+        then finally Isac.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        Until one day I
-        snapped.'
+        Until one day I snapped.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        Isac may have been
-        a monster, but I had sharper teeth.'
+        Isac may have been a monster, but I had
+        sharper teeth.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        Once the dust settled,
-        hell became a paradise... For me.'
+        Once the dust settled, hell became a paradise...
+        For me.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        I felt powerful,
-        in control.'
+        I felt powerful, in control.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Charon:</b>
 
@@ -544,32 +523,28 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        Honestly, what
-        did you expect of me?'
+        Honestly, what did you expect of me?'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        I admit, I haven''t
-        lived the cleanest life. But, how could I?'
+        I admit, I haven''t lived the cleanest life.
+        But, how could I?'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        My entire life
-        has been covered in filth.'
+        My entire life has been covered in filth.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Charon:</b>
 
 
-        You could have washed
-        it clean.'
+        You could have washed it clean.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        The prison? I was
-        just a man!'
+        The prison? I was just a man!'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Charon:</b>
 
@@ -589,8 +564,8 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        So was Isac, so
-        was the bastard that replaced me.'
+        So was Isac, so was the bastard that replaced
+        me.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
@@ -600,20 +575,19 @@ MonoBehaviour:
       Text: '<b>PASSENGER</b>
 
 
-        I should have saved
-        them from the hell they created for themselves. '
+        I should have saved them from the hell they
+        created for themselves. '
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        It is a burden,
-        us, the powerful must bear: compassion.'
+        It is a burden, us, the powerful must bear:
+        compassion.'
     - Clip: {fileID: 8300000, guid: caefba37732acc58bb386de927f126d9, type: 3}
       Text: '<b>Passenger:</b>
 
 
-        Don''t you agree,
-        ferry man?'
+        Don''t you agree, ferry man?'
   HEAVEN_ENDING:
     Lines:
     - Clip: {fileID: 8300000, guid: 4841b71c748efac108c669c5c917f560, type: 3}
@@ -627,8 +601,7 @@ MonoBehaviour:
       Text: '<b>Passenger:</b>
 
 
-        It will never end,
-        will it?'
+        It will never end, will it?'
 --- !u!4 &229222328
 Transform:
   m_ObjectHideFlags: 0
@@ -641,7 +614,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &269574236
 GameObject:
@@ -957,11 +930,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438232311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: 2.8000002, z: -10}
+  m_LocalPosition: {x: 30, y: 2.8000002, z: -31}
   m_LocalScale: {x: 3, y: 10, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &484254098
 GameObject:
@@ -1732,7 +1705,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898599032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 14.9}
   m_LocalScale: {x: 5, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1784,7 +1757,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &981562622
 GameObject:
@@ -2055,7 +2028,7 @@ RectTransform:
   - {fileID: 663714747}
   - {fileID: 1522918457}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2125,7 +2098,7 @@ GameObject:
   - component: {fileID: 1576033117}
   - component: {fileID: 1576033116}
   m_Layer: 0
-  m_Name: Haven
+  m_Name: Heaven
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2201,11 +2174,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576033115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 2.8, z: -10}
+  m_LocalPosition: {x: -30, y: 2.8, z: -31}
   m_LocalScale: {x: 3, y: 10, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1597112333
 GameObject:
