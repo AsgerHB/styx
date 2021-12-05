@@ -232,11 +232,11 @@ Passenger: (hell 3)
 
 Honestly, what did you expect of me?
 
-Passenger: (heaven 3)
+Passenger: (hell 3)
 
 I admit, I haven't lived the cleanest life. But, how could I?
 
-Passenger: (heaven 3)
+Passenger: (hell 3)
 
 My entire life has been covered in filth.
 
@@ -244,7 +244,7 @@ Charon:
 
 You could have washed it clean.
 
-Passenger: (heaven 3)
+Passenger: (hell 3)
 
 The prison? I was just a man!
 
@@ -252,19 +252,19 @@ Charon:
 
 You were a king.
 
-Passenger: (heaven 3)
+Passenger: (hell 3)
 
 ...
 
-Passenger: (heaven 3)
+Passenger: (hell 3)
 
 Hahahaha!
 
-Passenger: (heaven 3)
+Passenger: (hell 3)
 
 So was Isac, so was the bastard that replaced me.
 
-Passenger: (heaven 3)
+Passenger: (hell 3)
 
 But you're right.
 
@@ -272,11 +272,11 @@ PASSENGER (HEAVEN 3)
 
 I should have saved them from the hell they created for themselves. 
 
-Passenger: (heaven 3)
+Passenger: (hell 3)
 
 It is a burden, us, the powerful must bear: compassion.
 
-Passenger: (heaven 3)
+Passenger: (hell 3)
 
 Don't you agree, ferry man?
 

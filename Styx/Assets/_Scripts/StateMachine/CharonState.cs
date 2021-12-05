@@ -45,7 +45,7 @@ public class CharonState : State
 
             _system.AnyKey.Hide();
 
-            _system.SetState(new PassangerState(_system));
+            _system.SetState(new DecisionState(_system));
             yield return new WaitForSeconds(0f);
         }
     }

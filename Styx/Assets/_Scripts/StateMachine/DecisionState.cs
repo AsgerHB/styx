@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DecisionState : State
 {
+    bool _hasTurned = false;
 
     public DecisionState(StateSystem system) : base(system)
     {
@@ -18,8 +19,7 @@ public class DecisionState : State
 
     public override IEnumerator TurnHaven()
     {
-        Debug.Log("To Haven Button Pressed...");
-        Debug.Log("...Changing States!");
+        _hasTurned = true;
 
 
         _system.Boat.Turn(Input.GetAxis("Horizontal"));
@@ -30,8 +30,7 @@ public class DecisionState : State
 
     public override IEnumerator TurnHell()
     {
-        Debug.Log("To Hell Button Pressed...");
-        Debug.Log("...Changing States!");
+        _hasTurned = true;
 
         _system.Boat.Turn(Input.GetAxis("Horizontal"));
 
@@ -41,26 +40,28 @@ public class DecisionState : State
 
     public override IEnumerator Accept() 
     {
-        if (_system.Boat.CurrentDirection == Boat.Direction.Hell)
+        if (_hasTurned)
         {
-            Debug.Log("...Changing States! ...To Hell!");
-            _system.SetState(new PassangerState(_system));
-            _system.Arrows.HideArrows();
-            yield return new WaitForSeconds(0f);
+            if (_system.Boat.CurrentDirection == Boat.Direction.Hell)
+            {
+                Debug.Log("...Changing States! ...To Hell!");
+                _system.SetState(new PassangerState(_system));
+                _system.Arrows.HideArrows();
+                yield return new WaitForSeconds(0f);
+            }
+            if (_system.Boat.CurrentDirection == Boat.Direction.Heaven)
+            {
+                Debug.Log("...Changing States! ...To Heaven!");
+                _system.SetState(new PassangerState(_system));
+                _system.Arrows.HideArrows();
+                yield return new WaitForSeconds(0f);
+            }
         }
-        if (_system.Boat.CurrentDirection == Boat.Direction.Heaven)
-        {
-            Debug.Log("...Changing States! ...To Heaven!");
-            _system.SetState(new PassangerState(_system));
-            _system.Arrows.HideArrows();
-            yield return new WaitForSeconds(0f);
-        }
-
     }
 
     void UpdateArrows()
     {
-        if(_system.Boat.CurrentDirection == Boat.Direction.Undecided){
+        if(!_hasTurned || _system.Boat.CurrentDirection == Boat.Direction.Undecided){
             _system.Arrows.FaceNeutral();
         }
         else if(_system.Boat.CurrentDirection == Boat.Direction.Hell){
